@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Google Fonts Embed*/
+.roboto-serif-<uniquifier> {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "GRAD" 0;
+  }
+  
+  
+/*Hero Section*/
+.container{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    background-color: #3E3232;
+}
+
+.hero{
+    color: #A87C7C;
+    margin-left: 50px;
+    line-height: 2;
+    font-family: sans-serif;
+}
+
+.hero > h1{
+    font-size: 5rem;
+}
+
+.hero > h3{
+    font-size: 3rem;
+}
+
+.hero > p{
+    font-size: 1.5rem;
+    font-family: "Roboto Serif", serif;
+}
+
+.hero span{
+    color: #d9bdbd;
+    font-family: "Roboto Serif", serif;
+    letter-spacing: 2px;
+}
+
+/*Resume Section*/
+
+.resume-section{
+    padding: 50px;
+    font-size: 1rem;
+    background-color: #f3eded;
+}
+
+.resume{
+    margin: 50px;
+    padding: 50px;
+}
+
+.resume h1{
+    color: #503C3C;
+}
+
+.aboutme{
+    height: 50vh;
+}
+
+.aboutme > h1{
+    font-size: 2rem;
+}
+
+.myself{
+    border-radius: 20%;
+}
+
+
+.aboutmecontent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.aboutme > h1{
+    font-family: sans-serif;
+}
+
+.aboutmecontent p{
+    margin: 5rem 0;
+    font-family: "Roboto Serif", serif;
+}
+
+
+.study-container{
+    display: flex;
+    gap: 3rem;
+}
+
+.education{
+    margin: 3em 0;
+    background-color: #3E3232;
+    padding: 20px;
+    color: #e8d7d7;
+    border-radius: 20px;
+}
+
+.education > h1{
+    color: #c9a7a7;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.education-content{
+    padding: 50px;
+    line-height: 1.7;
+    font-family: "Roboto Serif", serif;
+}
+
+.work-exp{
+    margin: 3em 0;
+    background-color: #d9bdbd;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.work-exp > h1{
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.work-exp-content{
+    padding: 50px;
+    line-height: 1.7;
+    font-family: "Roboto Serif", serif;
+}
+
+.work-exp-content ul li{
+    color: #503C3C;
+}
+
+.respo-content{
+    text-indent: 50px;
+    list-style-type: none;
+}
+
+.skills-container{
+    height: 70vh;
+    margin-top: 3em;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.skills-content{
+    margin: 3em 0;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    font-family: "Roboto Serif", serif;
+}
+
+.skill{
+    background-color: #3E3232;
+    color: #d9bdbd;
+    padding: 0px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.skill p{
+    margin-bottom: 50px;
+}
+
+.fa-brands{
+    font-size: 2em;
+    margin-top: .3em;
+}
+
+.other-section{
+    height: 40vh;
+    font-family: sans-serif;
+}
+
+.other-section > h1{
+    font-size: 2rem;
+}
+
+.other-content{
+    display: flex;
+    gap: 40px;
+    font-family: "Roboto Serif", serif;
+}
+
+.other-img{
+    border-radius: 20px;
+}
+
+.swim-content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.keyboard-content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.myprojects-section{
+    margin-top: 50px;
+    height: 80vh;
+    font-family: sans-serif;
+}
+
+.myprojects-section > h1{
+    font-size: 2rem;
+}
+
+.myprojects-content{
+    margin-top: 50px;
+    display: flex;
+    gap: 2rem;
+}
+
+.project{
+    border-radius: 20px;
+    width: 40%;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.project > h3, .project > p{
+    padding: 20px;
+}
+
+.project > p{   
+    margin-bottom: 20px;
+}
+
+.project > h3{
+    font-size: 2rem;
+}
+
+.moveitlink{
+    text-decoration: none;
+}
+
+.project img{
+    border-radius: 20px;
+}
+
+.moveit{
+    background-color: #3E3232;
+    color: #c9a7a7;
+}
+
+.moveit img{
+    height: 50%;
+    overflow: hidden;
+}
+
+.moveitlink{
+    color: black;
+    background-color: #c9a7a7;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.moveitlink:hover{
+    color: white;
+    background-color: #A87C7C;
+}
+
+.tindog{
+    background-color: #d9bdbd;
+}
+
+.tindog img{
+    height: 50%;
+    overflow: hidden;
+}
+
+.tindoglink{
+    text-decoration: none;
+    color: black;
+    background-color: #A87C7C;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.tindoglink:hover{
+    color: white;
+    background-color: #503C3C;
+}
+
+.footer-container{
+    font-family: sans-serif;
+    height: 40vh;
+    background-color: #3E3232;
+}
+
+.contact-section{
+    padding: 50px;
+}
+
+.contact-section h1{
+    font-family: sans-serif;
+    font-size: 2.3rem;
+    color: #c9a7a7;
+    margin-bottom: 50px;
+}
+
+.contact-section > a{
+    text-decoration: none;
+    color: black;
+    background-color: #c9a7a7;
+    padding: 10px;
+    margin:500px 0;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.contact-section > a:hover{
+    color: white;
+    background-color: #A87C7C;
+}
+
+
+.socials a{
+    color: #c9a7a7;
+    padding: 100px 5px;
+    transition: .3s;
+}
+
+.socials a:hover{
+    color: #A87C7C;
+}
+/*Media Queries to make our website more responsive*/
+
+@media (max-width: 1600px){
+    .other-section{
+        height: 60vh;
+    }
+    .other-content{
+        flex-direction: column;
+    }
+
+    .footer-container{
+        height: vh;
+    }
+}
+
+@media (max-width: 1440px){
+    .skills-container{
+        height: 100vh;
+    }
+    .skills-content{
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+}
+
+@media (max-width: 1160px){
+    .project{
+        width: 60%;
+    }
+}
+
+@media (max-width: 1015px){
+    .myprojects-section{
+        height: 130vh;
+    }
+    .myprojects-content{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1030px){
+    .study-container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 950px){
+    .aboutmecontent p{
+        margin: 2rem 0;
+    }
+    .skills-content{
+        width: 400px; 
+    }
+}
+
+@media (max-width: 890px){
+    .swim-content{
+    }
+
+    .swim-content > img{
+        height: 150px;
+    }
+}
+
+@media (max-width: 770px){
+    .aboutme{
+        height: 70vh;
+    }
+    .aboutmecontent{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .aboutmecontent > img{
+        height: 300px;
+    }
+}
+
+@media (max-width: 760px){
+    .hero > h1{
+        font-size: 3rem;
+    }
+    
+    .hero > h3{
+        font-size: 1rem;
+    }
+    
+    .hero > p{
+        font-size: 1rem;
+        font-family: "Roboto Serif", serif;
+    }
+    .skills-container{
+        height: 190vh;
+    }
+    .skills-content{
+        grid-template-columns: 1fr;
+    }
+
+    .project{
+        border-radius: 20px;
+        width: 90%;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    .other-section{
+        height: 100vh;
+    }
+
+    .swim-content{
+        flex-direction: column;
+    }
+
+    .swim-content > img{
+        height: 250px;
+    }
+
+    .keyboard-content{
+        flex-direction: column;
+    }
+
+    .keyboard-content > img{
+        height: 250px;
+    }
+}
+
+@media (max-width: 600px){
+    .resume{
+        margin: 20px;
+        padding: 20px;
+    }
+    .aboutmecontent img{
+        height: 300px;
+    }
+
+    .study-container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px){
+    .footer-container{
+        height: 50vh;
+    }
+
+    .other-section{
+        height: 120vh;
+    }
+}
+
+@media (max-width: 480px){
+    .resume-section{
+        padding: 10px;
+    }
+
+    .resume{
+        padding: 10px;
+    }
+
+    .other-section{
+        height: 120vh;
+    }
+}
+
+@media (max-width: 420px){
+    .resume-section{
+        padding: 0px;
+    }
+
+    .resume{
+        padding: 0px;
+    }
+
+    .skills-content{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+
+    .aboutmecontent img{
+        height: 200px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 265px){
+    .footer-container{
+        height: 60vh;
+    }
+
+    .other-section{
+        height: 160vh;
+    }
+
+    .aboutmecontent img{
+        height: 170px;
+        width: 200px;
+    }
+}
